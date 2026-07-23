@@ -40,49 +40,164 @@ CATEGORIES = [
 
 
 CATEGORY_THUMBNAILS = {
+    # ── 1. ARTIFICIAL INTELLIGENCE (12 images) ────────────────────────────────
     "artificial-intelligence": [
         "https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&w=960&q=80",
         "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=960&q=80",
         "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=960&q=80",
     ],
+
+    # ── 2. MANUFACTURING & INDUSTRY 4.0 (12 images) ──────────────────────────
     "manufacturing-industry-4-0": [
         "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=960&q=80",
         "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=960&q=80",
         "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=960&q=80",
     ],
+
+    # ── 3. HEALTHCARE (12 images) ────────────────────────────────────────────
     "healthcare": [
         "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=960&q=80",
         "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=960&q=80",
         "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1583912267670-6575ad3726f8?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1582718142238-7f702715c267?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&w=960&q=80",
     ],
+
+    # ── 4. AGRICULTURE (12 images) ───────────────────────────────────────────
     "agriculture": [
         "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&w=960&q=80",
         "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=960&q=80",
         "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1530507629858-e4977d30e9e0?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=960&q=80",
     ],
+
+    # ── 5. FINTECH (12 images) ───────────────────────────────────────────────
     "fintech": [
         "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=960&q=80",
         "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1556742049-0a67daf4005a?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1616514197671-15d999c707d0?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=960&q=80",
     ],
+
+    # ── 6. EDTECH (12 images) ────────────────────────────────────────────────
     "edtech": [
         "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=960&q=80",
         "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=960&q=80",
     ],
+
+    # ── 7. CLEAN ENERGY (12 images) ──────────────────────────────────────────
     "renewable-energy": [
         "https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=960&q=80",
         "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1548337138-e87d889cc369?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1558441719-443b38605d82?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1545208942-e1c9c916524b?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1521618755572-156ae0cdd74d?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=960&q=80",
     ],
+
+    # ── 8. CONSTRUCTION & INFRASTRUCTURE (12 images) ───────────────────────
     "construction-tech": [
         "https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=960&q=80",
         "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1584467735871-8e85353a8413?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1574359411659-15573a27fd0c?auto=format&fit=crop&w=960&q=80",
     ],
+
+    # ── 9. FOOD PROCESSING (12 images) ───────────────────────────────────────
     "food-processing": [
         "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=960&q=80",
         "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1514944288352-1ac03805aa63?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=960&q=80",
     ],
+
+    # ── 10. ROBOTICS & AUTOMATION (12 images) ───────────────────────────────
     "robotics": [
         "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=960&q=80",
         "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=960&q=80",
+        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=960&q=80",
     ],
 }
 
