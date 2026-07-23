@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int = 30
     refresh_token_expire_days: int = 7
     database_url: str = "sqlite:///./startup_navigator.db"
-    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
+    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173,https://startup-navigator-5e6jg1x5x-anvi7.vercel.app"
     admin_email: str = "admin@example.com"
     admin_password: str = "ChangeMeAdmin123!"
     algorithm: str = "HS256"
