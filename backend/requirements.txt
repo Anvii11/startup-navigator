@@ -10,9 +10,7 @@ passlib[bcrypt]==1.7.4
 bcrypt==4.0.1
 PyJWT==2.10.1
 python-dotenv==1.2.1
+
 numpy
-pandas
-scikit-learn
-chromadb
-sentence-transformers
+openai
 google-generativeai
