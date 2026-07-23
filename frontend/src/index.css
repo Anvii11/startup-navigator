@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+
+  --color-ink: #0f1c18;
+  --color-ink-muted: #3d5249;
+  --color-surface: #f4f7f5;
+  --color-surface-elevated: #ffffff;
+  --color-border: #d5e0db;
+  --color-accent: #1a6b4a;
+  --color-accent-hover: #14553a;
+  --color-accent-soft: #e4f2eb;
+  --color-danger: #b42318;
+  --color-warning: #b54708;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply m-0 min-h-screen bg-surface font-sans text-ink antialiased;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 10% -10%, rgba(26, 107, 74, 0.08), transparent),
+      radial-gradient(ellipse 60% 40% at 100% 0%, rgba(15, 28, 24, 0.04), transparent);
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+
+  a {
+    @apply text-inherit no-underline;
+  }
+}
+
+@layer components {
+  .article-prose {
+    @apply text-ink leading-relaxed;
+  }
+
+  .article-prose h2 {
+    @apply font-display mt-8 mb-3 text-2xl font-semibold text-ink;
+  }
+
+  .article-prose h3 {
+    @apply font-display mt-6 mb-2 text-xl font-semibold text-ink;
+  }
+
+  .article-prose p {
+    @apply mb-4 text-[1.05rem] text-ink-muted;
+  }
+
+  .article-prose ul {
+    @apply mb-4 list-disc space-y-2 pl-6 text-ink-muted;
+  }
+
+  .article-prose ol {
+    @apply mb-4 list-decimal space-y-2 pl-6 text-ink-muted;
+  }
+
+  .article-prose strong {
+    @apply font-semibold text-ink;
+  }
+
+  .article-prose a {
+    @apply text-accent underline underline-offset-2;
+  }
+
+  .article-prose code {
+    @apply rounded bg-surface px-1.5 py-0.5 text-sm;
+  }
+}
